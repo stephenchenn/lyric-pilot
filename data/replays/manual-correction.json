@@ -1,0 +1,154 @@
+{
+  "name": "manual-correction",
+  "description": "Synthetic transcript fixture; no measured singing recognition. Ground truth never enters the matcher.",
+  "durationMs": 22500,
+  "events": [
+    {
+      "type": "transcript",
+      "id": "manual-correction-0",
+      "startMs": 0,
+      "endMs": 700,
+      "atMs": 700,
+      "text": "Morning breaks across the",
+      "final": false
+    },
+    {
+      "type": "transcript",
+      "id": "manual-correction-0",
+      "startMs": 0,
+      "endMs": 1450,
+      "atMs": 1450,
+      "text": "Morning breaks across the valley",
+      "final": true
+    },
+    {
+      "type": "tick",
+      "atMs": 4300
+    },
+    {
+      "type": "manual",
+      "atMs": 4600,
+      "slideId": "s5",
+      "stepIndex": 2
+    },
+    {
+      "type": "transcript",
+      "id": "manual-correction-1",
+      "startMs": 4500,
+      "endMs": 5200,
+      "atMs": 5200,
+      "text": "When the road becomes",
+      "final": false
+    },
+    {
+      "type": "transcript",
+      "id": "manual-correction-1",
+      "startMs": 4500,
+      "endMs": 5950,
+      "atMs": 5950,
+      "text": "When the road becomes uncertain",
+      "final": true
+    },
+    {
+      "type": "transcript",
+      "id": "manual-conflict",
+      "startMs": 4700,
+      "endMs": 6000,
+      "atMs": 6000,
+      "text": "We lift our voices together",
+      "final": true
+    },
+    {
+      "type": "tick",
+      "atMs": 8800
+    },
+    {
+      "type": "transcript",
+      "id": "manual-correction-2",
+      "startMs": 9000,
+      "endMs": 9700,
+      "atMs": 9700,
+      "text": "Still we choose to",
+      "final": false
+    },
+    {
+      "type": "transcript",
+      "id": "manual-correction-2",
+      "startMs": 9000,
+      "endMs": 10450,
+      "atMs": 10450,
+      "text": "Still we choose to walk in hope",
+      "final": true
+    },
+    {
+      "type": "tick",
+      "atMs": 13300
+    },
+    {
+      "type": "transcript",
+      "id": "manual-correction-3",
+      "startMs": 13500,
+      "endMs": 14200,
+      "atMs": 14200,
+      "text": "You are with us",
+      "final": false
+    },
+    {
+      "type": "transcript",
+      "id": "manual-correction-3",
+      "startMs": 13500,
+      "endMs": 14950,
+      "atMs": 14950,
+      "text": "You are with us through the storm",
+      "final": true
+    },
+    {
+      "type": "tick",
+      "atMs": 17800
+    },
+    {
+      "type": "transcript",
+      "id": "manual-correction-4",
+      "startMs": 18000,
+      "endMs": 18700,
+      "atMs": 18700,
+      "text": "You will lead us",
+      "final": false
+    },
+    {
+      "type": "transcript",
+      "id": "manual-correction-4",
+      "startMs": 18000,
+      "endMs": 19450,
+      "atMs": 19450,
+      "text": "You will lead us safely home",
+      "final": true
+    },
+    {
+      "type": "tick",
+      "atMs": 22300
+    }
+  ],
+  "groundTruth": [
+    {
+      "atMs": 0,
+      "slideId": "s1"
+    },
+    {
+      "atMs": 4500,
+      "slideId": "s5"
+    },
+    {
+      "atMs": 9000,
+      "slideId": "s6"
+    },
+    {
+      "atMs": 13500,
+      "slideId": "s3"
+    },
+    {
+      "atMs": 18000,
+      "slideId": "s4"
+    }
+  ]
+}

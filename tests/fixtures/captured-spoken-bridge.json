@@ -1,0 +1,819 @@
+{
+  "name": "captured-spoken-bridge",
+  "description": "Captured local whisper.cpp v1.9.5 tiny.en output from FFmpeg/libflite slt speaking original lyrics. Not singing. Independent synthetic ground truth; measured word and availability timestamps.",
+  "durationMs": 28144,
+  "events": [
+    {
+      "type": "health",
+      "atMs": 0,
+      "healthy": true,
+      "message": "Local Whisper; recorded audio"
+    },
+    {
+      "type": "transcript",
+      "id": "rolling-audio",
+      "startMs": 0,
+      "endMs": 1500,
+      "atMs": 2501,
+      "text": "Good morning, Brakes.",
+      "words": [
+        {
+          "text": "Good",
+          "startMs": 250,
+          "endMs": 480
+        },
+        {
+          "text": "morning,",
+          "startMs": 480,
+          "endMs": 1170
+        },
+        {
+          "text": "Brakes.",
+          "startMs": 1170,
+          "endMs": 1500
+        }
+      ],
+      "final": false
+    },
+    {
+      "type": "transcript",
+      "id": "rolling-audio",
+      "startMs": 0,
+      "endMs": 3000,
+      "atMs": 4231,
+      "text": "\"Morning breaks across the valley.\"",
+      "words": [
+        {
+          "text": "\"Morning",
+          "startMs": 130,
+          "endMs": 1040
+        },
+        {
+          "text": "breaks",
+          "startMs": 1040,
+          "endMs": 1820
+        },
+        {
+          "text": "across",
+          "startMs": 1820,
+          "endMs": 2580
+        },
+        {
+          "text": "the",
+          "startMs": 2580,
+          "endMs": 2990
+        },
+        {
+          "text": "valley.\"",
+          "startMs": 2990,
+          "endMs": 3000
+        }
+      ],
+      "final": false
+    },
+    {
+      "type": "transcript",
+      "id": "rolling-audio",
+      "startMs": 0,
+      "endMs": 4500,
+      "atMs": 5481,
+      "text": "\"Morning breaks across the valley.\"",
+      "words": [
+        {
+          "text": "\"Morning",
+          "startMs": 130,
+          "endMs": 1040
+        },
+        {
+          "text": "breaks",
+          "startMs": 1040,
+          "endMs": 1820
+        },
+        {
+          "text": "across",
+          "startMs": 1820,
+          "endMs": 2370
+        },
+        {
+          "text": "the",
+          "startMs": 2370,
+          "endMs": 2990
+        },
+        {
+          "text": "valley.\"",
+          "startMs": 2990,
+          "endMs": 4300
+        }
+      ],
+      "final": false
+    },
+    {
+      "type": "transcript",
+      "id": "rolling-audio",
+      "startMs": 1000,
+      "endMs": 6000,
+      "atMs": 7126,
+      "text": "breaks across the valley. We lift our voices",
+      "words": [
+        {
+          "text": "breaks",
+          "startMs": 1000,
+          "endMs": 1570
+        },
+        {
+          "text": "across",
+          "startMs": 1570,
+          "endMs": 2140
+        },
+        {
+          "text": "the",
+          "startMs": 2140,
+          "endMs": 3000
+        },
+        {
+          "text": "valley.",
+          "startMs": 3000,
+          "endMs": 5080
+        },
+        {
+          "text": "We",
+          "startMs": 5080,
+          "endMs": 5200
+        },
+        {
+          "text": "lift",
+          "startMs": 5200,
+          "endMs": 5430
+        },
+        {
+          "text": "our",
+          "startMs": 5430,
+          "endMs": 5610
+        },
+        {
+          "text": "voices",
+          "startMs": 5610,
+          "endMs": 5980
+        }
+      ],
+      "final": false
+    },
+    {
+      "type": "transcript",
+      "id": "rolling-audio",
+      "startMs": 2500,
+      "endMs": 7500,
+      "atMs": 8496,
+      "text": "We lift our voices together.",
+      "words": [
+        {
+          "text": "We",
+          "startMs": 2500,
+          "endMs": 2840
+        },
+        {
+          "text": "lift",
+          "startMs": 2840,
+          "endMs": 3530
+        },
+        {
+          "text": "our",
+          "startMs": 3530,
+          "endMs": 4970
+        },
+        {
+          "text": "voices",
+          "startMs": 4970,
+          "endMs": 5090
+        },
+        {
+          "text": "together.",
+          "startMs": 5090,
+          "endMs": 6560
+        }
+      ],
+      "final": false
+    },
+    {
+      "type": "transcript",
+      "id": "rolling-audio",
+      "startMs": 4000,
+      "endMs": 9000,
+      "atMs": 9986,
+      "text": "We lift our voices together.",
+      "words": [
+        {
+          "text": "We",
+          "startMs": 4000,
+          "endMs": 4170
+        },
+        {
+          "text": "lift",
+          "startMs": 4170,
+          "endMs": 4750
+        },
+        {
+          "text": "our",
+          "startMs": 4750,
+          "endMs": 4980
+        },
+        {
+          "text": "voices",
+          "startMs": 4980,
+          "endMs": 5290
+        },
+        {
+          "text": "together.",
+          "startMs": 5290,
+          "endMs": 7000
+        }
+      ],
+      "final": false
+    },
+    {
+      "type": "transcript",
+      "id": "rolling-audio",
+      "startMs": 5500,
+      "endMs": 10500,
+      "atMs": 11637,
+      "text": "voices together. We will follow up.",
+      "words": [
+        {
+          "text": "voices",
+          "startMs": 5500,
+          "endMs": 6350
+        },
+        {
+          "text": "together.",
+          "startMs": 6350,
+          "endMs": 9500
+        },
+        {
+          "text": "We",
+          "startMs": 9500,
+          "endMs": 9960
+        },
+        {
+          "text": "will",
+          "startMs": 9960,
+          "endMs": 10480
+        },
+        {
+          "text": "follow",
+          "startMs": 10480,
+          "endMs": 10490
+        },
+        {
+          "text": "up.",
+          "startMs": 10490,
+          "endMs": 10500
+        }
+      ],
+      "final": false
+    },
+    {
+      "type": "transcript",
+      "id": "rolling-audio",
+      "startMs": 7000,
+      "endMs": 12000,
+      "atMs": 13525,
+      "text": "\"We will follow, we will follow.\"",
+      "words": [
+        {
+          "text": "\"We",
+          "startMs": 7000,
+          "endMs": 7430
+        },
+        {
+          "text": "will",
+          "startMs": 7430,
+          "endMs": 8020
+        },
+        {
+          "text": "follow,",
+          "startMs": 8020,
+          "endMs": 9470
+        },
+        {
+          "text": "we",
+          "startMs": 9470,
+          "endMs": 9490
+        },
+        {
+          "text": "will",
+          "startMs": 9490,
+          "endMs": 10080
+        },
+        {
+          "text": "follow.\"",
+          "startMs": 10080,
+          "endMs": 11600
+        }
+      ],
+      "final": false
+    },
+    {
+      "type": "transcript",
+      "id": "rolling-audio",
+      "startMs": 8500,
+      "endMs": 13500,
+      "atMs": 14811,
+      "text": "We will follow, we will follow.",
+      "words": [
+        {
+          "text": "We",
+          "startMs": 8500,
+          "endMs": 9250
+        },
+        {
+          "text": "will",
+          "startMs": 9250,
+          "endMs": 9480
+        },
+        {
+          "text": "follow,",
+          "startMs": 9480,
+          "endMs": 10500
+        },
+        {
+          "text": "we",
+          "startMs": 10500,
+          "endMs": 10660
+        },
+        {
+          "text": "will",
+          "startMs": 10660,
+          "endMs": 11040
+        },
+        {
+          "text": "follow.",
+          "startMs": 11040,
+          "endMs": 13500
+        }
+      ],
+      "final": false
+    },
+    {
+      "type": "transcript",
+      "id": "rolling-audio",
+      "startMs": 10000,
+      "endMs": 15000,
+      "atMs": 16144,
+      "text": "we will follow where you led us we",
+      "words": [
+        {
+          "text": "we",
+          "startMs": 10000,
+          "endMs": 10500
+        },
+        {
+          "text": "will",
+          "startMs": 10500,
+          "endMs": 11040
+        },
+        {
+          "text": "follow",
+          "startMs": 11040,
+          "endMs": 12000
+        },
+        {
+          "text": "where",
+          "startMs": 12000,
+          "endMs": 13630
+        },
+        {
+          "text": "you",
+          "startMs": 13630,
+          "endMs": 13980
+        },
+        {
+          "text": "led",
+          "startMs": 13980,
+          "endMs": 14240
+        },
+        {
+          "text": "us",
+          "startMs": 14240,
+          "endMs": 14700
+        },
+        {
+          "text": "we",
+          "startMs": 14700,
+          "endMs": 15000
+        }
+      ],
+      "final": false
+    },
+    {
+      "type": "transcript",
+      "id": "rolling-audio",
+      "startMs": 11500,
+      "endMs": 16500,
+      "atMs": 17704,
+      "text": "Where you let us we will go.",
+      "words": [
+        {
+          "text": "Where",
+          "startMs": 11500,
+          "endMs": 12430
+        },
+        {
+          "text": "you",
+          "startMs": 12430,
+          "endMs": 12980
+        },
+        {
+          "text": "let",
+          "startMs": 12980,
+          "endMs": 13900
+        },
+        {
+          "text": "us",
+          "startMs": 13900,
+          "endMs": 13980
+        },
+        {
+          "text": "we",
+          "startMs": 13980,
+          "endMs": 14270
+        },
+        {
+          "text": "will",
+          "startMs": 14270,
+          "endMs": 15010
+        },
+        {
+          "text": "go.",
+          "startMs": 15010,
+          "endMs": 15500
+        }
+      ],
+      "final": false
+    },
+    {
+      "type": "transcript",
+      "id": "rolling-audio",
+      "startMs": 13000,
+      "endMs": 18000,
+      "atMs": 19516,
+      "text": "Where you let us we will go.",
+      "words": [
+        {
+          "text": "Where",
+          "startMs": 13000,
+          "endMs": 13750
+        },
+        {
+          "text": "you",
+          "startMs": 13750,
+          "endMs": 13970
+        },
+        {
+          "text": "let",
+          "startMs": 13970,
+          "endMs": 14030
+        },
+        {
+          "text": "us",
+          "startMs": 14030,
+          "endMs": 14220
+        },
+        {
+          "text": "we",
+          "startMs": 14220,
+          "endMs": 14410
+        },
+        {
+          "text": "will",
+          "startMs": 14410,
+          "endMs": 14800
+        },
+        {
+          "text": "go.",
+          "startMs": 14800,
+          "endMs": 17000
+        }
+      ],
+      "final": false
+    },
+    {
+      "type": "transcript",
+      "id": "rolling-audio",
+      "startMs": 14500,
+      "endMs": 19500,
+      "atMs": 20803,
+      "text": "us we will go, you are with us through the",
+      "words": [
+        {
+          "text": "us",
+          "startMs": 14500,
+          "endMs": 15070
+        },
+        {
+          "text": "we",
+          "startMs": 15070,
+          "endMs": 15430
+        },
+        {
+          "text": "will",
+          "startMs": 15430,
+          "endMs": 16790
+        },
+        {
+          "text": "go,",
+          "startMs": 16790,
+          "endMs": 18490
+        },
+        {
+          "text": "you",
+          "startMs": 18490,
+          "endMs": 18640
+        },
+        {
+          "text": "are",
+          "startMs": 18640,
+          "endMs": 18860
+        },
+        {
+          "text": "with",
+          "startMs": 18860,
+          "endMs": 19070
+        },
+        {
+          "text": "us",
+          "startMs": 19070,
+          "endMs": 19330
+        },
+        {
+          "text": "through",
+          "startMs": 19330,
+          "endMs": 19420
+        },
+        {
+          "text": "the",
+          "startMs": 19420,
+          "endMs": 19500
+        }
+      ],
+      "final": false
+    },
+    {
+      "type": "transcript",
+      "id": "rolling-audio",
+      "startMs": 16000,
+      "endMs": 21000,
+      "atMs": 22220,
+      "text": "You are with us through the storm.",
+      "words": [
+        {
+          "text": "You",
+          "startMs": 16000,
+          "endMs": 16450
+        },
+        {
+          "text": "are",
+          "startMs": 16450,
+          "endMs": 16900
+        },
+        {
+          "text": "with",
+          "startMs": 16900,
+          "endMs": 17500
+        },
+        {
+          "text": "us",
+          "startMs": 17500,
+          "endMs": 18480
+        },
+        {
+          "text": "through",
+          "startMs": 18480,
+          "endMs": 18850
+        },
+        {
+          "text": "the",
+          "startMs": 18850,
+          "endMs": 19330
+        },
+        {
+          "text": "storm.",
+          "startMs": 19330,
+          "endMs": 20080
+        }
+      ],
+      "final": false
+    },
+    {
+      "type": "transcript",
+      "id": "rolling-audio",
+      "startMs": 17500,
+      "endMs": 22500,
+      "atMs": 24001,
+      "text": "You are with us through the storm.",
+      "words": [
+        {
+          "text": "You",
+          "startMs": 17500,
+          "endMs": 17750
+        },
+        {
+          "text": "are",
+          "startMs": 17750,
+          "endMs": 18250
+        },
+        {
+          "text": "with",
+          "startMs": 18250,
+          "endMs": 18480
+        },
+        {
+          "text": "us",
+          "startMs": 18480,
+          "endMs": 18510
+        },
+        {
+          "text": "through",
+          "startMs": 18510,
+          "endMs": 19110
+        },
+        {
+          "text": "the",
+          "startMs": 19110,
+          "endMs": 19360
+        },
+        {
+          "text": "storm.",
+          "startMs": 19360,
+          "endMs": 20080
+        }
+      ],
+      "final": false
+    },
+    {
+      "type": "transcript",
+      "id": "rolling-audio",
+      "startMs": 19000,
+      "endMs": 24000,
+      "atMs": 25208,
+      "text": "us through the storm, you will lead us safely.",
+      "words": [
+        {
+          "text": "us",
+          "startMs": 19000,
+          "endMs": 19330
+        },
+        {
+          "text": "through",
+          "startMs": 19330,
+          "endMs": 20050
+        },
+        {
+          "text": "the",
+          "startMs": 20050,
+          "endMs": 21000
+        },
+        {
+          "text": "storm,",
+          "startMs": 21000,
+          "endMs": 21370
+        },
+        {
+          "text": "you",
+          "startMs": 21370,
+          "endMs": 22680
+        },
+        {
+          "text": "will",
+          "startMs": 22680,
+          "endMs": 22980
+        },
+        {
+          "text": "lead",
+          "startMs": 22980,
+          "endMs": 23430
+        },
+        {
+          "text": "us",
+          "startMs": 23430,
+          "endMs": 23830
+        },
+        {
+          "text": "safely.",
+          "startMs": 23830,
+          "endMs": 23960
+        }
+      ],
+      "final": false
+    },
+    {
+      "type": "transcript",
+      "id": "rolling-audio",
+      "startMs": 20500,
+      "endMs": 25500,
+      "atMs": 26471,
+      "text": "You will lead us safely home.",
+      "words": [
+        {
+          "text": "You",
+          "startMs": 20500,
+          "endMs": 21020
+        },
+        {
+          "text": "will",
+          "startMs": 21020,
+          "endMs": 21710
+        },
+        {
+          "text": "lead",
+          "startMs": 21710,
+          "endMs": 22740
+        },
+        {
+          "text": "us",
+          "startMs": 22740,
+          "endMs": 22980
+        },
+        {
+          "text": "safely",
+          "startMs": 22980,
+          "endMs": 23840
+        },
+        {
+          "text": "home.",
+          "startMs": 23840,
+          "endMs": 24500
+        }
+      ],
+      "final": false
+    },
+    {
+      "type": "transcript",
+      "id": "rolling-audio",
+      "startMs": 22000,
+      "endMs": 27000,
+      "atMs": 28144,
+      "text": "You will lead us safely home.",
+      "words": [
+        {
+          "text": "You",
+          "startMs": 22000,
+          "endMs": 22720
+        },
+        {
+          "text": "will",
+          "startMs": 22720,
+          "endMs": 22980
+        },
+        {
+          "text": "lead",
+          "startMs": 22980,
+          "endMs": 23130
+        },
+        {
+          "text": "us",
+          "startMs": 23130,
+          "endMs": 23330
+        },
+        {
+          "text": "safely",
+          "startMs": 23330,
+          "endMs": 23950
+        },
+        {
+          "text": "home.",
+          "startMs": 23950,
+          "endMs": 24700
+        }
+      ],
+      "final": false
+    }
+  ],
+  "groundTruth": [
+    {
+      "atMs": 0,
+      "slideId": "s1"
+    },
+    {
+      "atMs": 4750,
+      "slideId": "s2"
+    },
+    {
+      "atMs": 9250,
+      "slideId": "s7"
+    },
+    {
+      "atMs": 13750,
+      "slideId": "s8"
+    },
+    {
+      "atMs": 18250,
+      "slideId": "s3"
+    },
+    {
+      "atMs": 22750,
+      "slideId": "s4"
+    }
+  ],
+  "evaluationDurationMs": 27000,
+  "transcriptWindowMs": 5000
+}

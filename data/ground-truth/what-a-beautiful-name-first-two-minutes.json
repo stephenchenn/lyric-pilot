@@ -1,0 +1,14 @@
+[
+  { "atMs": 0, "slideId": "v1-1" },
+  { "atMs": 21000, "slideId": "v1-2" },
+  { "atMs": 33000, "slideId": "c1-1" },
+  { "atMs": 40000, "slideId": "c1-2" },
+  { "atMs": 47000, "slideId": "c1-3" },
+  { "atMs": 54000, "slideId": "c1-4" },
+  { "atMs": 67000, "slideId": "v2-1" },
+  { "atMs": 81000, "slideId": "v2-2" },
+  { "atMs": 92000, "slideId": "c2-1" },
+  { "atMs": 100000, "slideId": "c2-2" },
+  { "atMs": 107000, "slideId": "c2-3" },
+  { "atMs": 114000, "slideId": "c2-4" }
+]

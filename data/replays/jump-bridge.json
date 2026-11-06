@@ -1,0 +1,165 @@
+{
+  "name": "jump-bridge",
+  "description": "Synthetic transcript fixture; no measured singing recognition. Ground truth never enters the matcher.",
+  "durationMs": 27000,
+  "events": [
+    {
+      "type": "transcript",
+      "id": "jump-bridge-0",
+      "startMs": 0,
+      "endMs": 700,
+      "atMs": 700,
+      "text": "Morning breaks across the",
+      "final": false
+    },
+    {
+      "type": "transcript",
+      "id": "jump-bridge-0",
+      "startMs": 0,
+      "endMs": 1450,
+      "atMs": 1450,
+      "text": "Morning breaks across the valley",
+      "final": true
+    },
+    {
+      "type": "tick",
+      "atMs": 4300
+    },
+    {
+      "type": "transcript",
+      "id": "jump-bridge-1",
+      "startMs": 4500,
+      "endMs": 5200,
+      "atMs": 5200,
+      "text": "We lift our voices",
+      "final": false
+    },
+    {
+      "type": "transcript",
+      "id": "jump-bridge-1",
+      "startMs": 4500,
+      "endMs": 5950,
+      "atMs": 5950,
+      "text": "We lift our voices together",
+      "final": true
+    },
+    {
+      "type": "tick",
+      "atMs": 8800
+    },
+    {
+      "type": "transcript",
+      "id": "jump-bridge-2",
+      "startMs": 9000,
+      "endMs": 9700,
+      "atMs": 9700,
+      "text": "We will follow, we",
+      "final": false
+    },
+    {
+      "type": "transcript",
+      "id": "jump-bridge-2",
+      "startMs": 9000,
+      "endMs": 10450,
+      "atMs": 10450,
+      "text": "We will follow, we will follow",
+      "final": true
+    },
+    {
+      "type": "tick",
+      "atMs": 13300
+    },
+    {
+      "type": "transcript",
+      "id": "jump-bridge-3",
+      "startMs": 13500,
+      "endMs": 14200,
+      "atMs": 14200,
+      "text": "Where You lead us",
+      "final": false
+    },
+    {
+      "type": "transcript",
+      "id": "jump-bridge-3",
+      "startMs": 13500,
+      "endMs": 14950,
+      "atMs": 14950,
+      "text": "Where You lead us we will go",
+      "final": true
+    },
+    {
+      "type": "tick",
+      "atMs": 17800
+    },
+    {
+      "type": "transcript",
+      "id": "jump-bridge-4",
+      "startMs": 18000,
+      "endMs": 18700,
+      "atMs": 18700,
+      "text": "You are with us",
+      "final": false
+    },
+    {
+      "type": "transcript",
+      "id": "jump-bridge-4",
+      "startMs": 18000,
+      "endMs": 19450,
+      "atMs": 19450,
+      "text": "You are with us through the storm",
+      "final": true
+    },
+    {
+      "type": "tick",
+      "atMs": 22300
+    },
+    {
+      "type": "transcript",
+      "id": "jump-bridge-5",
+      "startMs": 22500,
+      "endMs": 23200,
+      "atMs": 23200,
+      "text": "You will lead us",
+      "final": false
+    },
+    {
+      "type": "transcript",
+      "id": "jump-bridge-5",
+      "startMs": 22500,
+      "endMs": 23950,
+      "atMs": 23950,
+      "text": "You will lead us safely home",
+      "final": true
+    },
+    {
+      "type": "tick",
+      "atMs": 26800
+    }
+  ],
+  "groundTruth": [
+    {
+      "atMs": 0,
+      "slideId": "s1"
+    },
+    {
+      "atMs": 4500,
+      "slideId": "s2"
+    },
+    {
+      "atMs": 9000,
+      "slideId": "s7"
+    },
+    {
+      "atMs": 13500,
+      "slideId": "s8"
+    },
+    {
+      "atMs": 18000,
+      "slideId": "s3"
+    },
+    {
+      "atMs": 22500,
+      "slideId": "s4"
+    }
+  ]
+}

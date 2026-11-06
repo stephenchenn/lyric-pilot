@@ -1,0 +1,687 @@
+{
+  "date": "2026-11-06",
+  "hardware": {
+    "cpu": "Intel Core i7-10510U",
+    "inference": "CPU",
+    "threads": 4
+  },
+  "model": {
+    "id": "mrfakename/w2v-bert-2.0-music-lyrics-ctc",
+    "revision": "1be91455793f86de803ac0707303a0998e423ce1",
+    "sha256": "4293e75411c7fca47d553a0237fefe37694bf004253e9e4fe6fd7c84483d5b9d",
+    "runtime": "PyTorch 2.6.0+cpu",
+    "quantization": "dynamic qint8 Linear layers, x86 engine",
+    "transformers": "4.57.6"
+  },
+  "annotations": {
+    "source": "User-authored slide-start annotations",
+    "path": "data/ground-truth/what-a-beautiful-name-first-two-minutes.json",
+    "durationMs": 120000,
+    "usedDuringInference": false
+  },
+  "interpretation": {
+    "developmentRecording": true,
+    "windowAndModelTuning": "Configuration tuning; no model weights were trained on this recording.",
+    "timeAccuracy": "Includes the initially selected slide and intro; initial selection is not a transition.",
+    "latency": "Actual availability-time delay, including audio context and decoder cost; no timestamps backdated to sung word onsets.",
+    "falseTransitions": "Includes a correct slide selected after its annotated interval.",
+    "generalization": "The short-window configuration was tuned on one recording. The secondary Amazing Grace recording needs longer acoustic context."
+  },
+  "results": [
+    {
+      "name": "Saved Whisper tiny.en observations + heuristic-v2",
+      "archived": true,
+      "windowMs": 5000,
+      "stepMs": 1500,
+      "metrics": {
+        "transcriptSamples": 69,
+        "top1Accuracy": 0.6956521739130435,
+        "top3Accuracy": 0.855072463768116,
+        "trackingTimeAccuracy": 0.3968833333333333,
+        "displayedTimeAccuracy": 0.3968833333333333,
+        "expectedTransitions": 11,
+        "matchedTransitions": 7,
+        "missedTransitions": 4,
+        "falseTransitions": 1,
+        "medianLatencyMs": 4680,
+        "p95LatencyMs": 7259
+      },
+      "timing": null,
+      "transitions": [
+        {
+          "atMs": 27677,
+          "slideId": "v1-2"
+        },
+        {
+          "atMs": 36669,
+          "slideId": "c1-1"
+        },
+        {
+          "atMs": 44178,
+          "slideId": "c1-2"
+        },
+        {
+          "atMs": 74259,
+          "slideId": "v2-1"
+        },
+        {
+          "atMs": 92147,
+          "slideId": "v2-2"
+        },
+        {
+          "atMs": 96727,
+          "slideId": "c2-1"
+        },
+        {
+          "atMs": 104184,
+          "slideId": "c2-2"
+        },
+        {
+          "atMs": 111680,
+          "slideId": "c2-3"
+        }
+      ]
+    },
+    {
+      "name": "Initial speech CTC + ctc-plan-v1",
+      "windowMs": 5000,
+      "stepMs": 1500,
+      "metrics": {
+        "transcriptSamples": 0,
+        "top1Accuracy": null,
+        "top3Accuracy": null,
+        "trackingTimeAccuracy": 0.48491666666666666,
+        "displayedTimeAccuracy": 0.48491666666666666,
+        "expectedTransitions": 11,
+        "matchedTransitions": 6,
+        "missedTransitions": 5,
+        "falseTransitions": 1,
+        "medianLatencyMs": 2537,
+        "p95LatencyMs": 9032
+      },
+      "timing": {
+        "audioDurationMs": 120000,
+        "decodingMs": 87692,
+        "processingWallMs": 89039,
+        "windowCount": 80,
+        "silenceWindows": 0,
+        "maximumBacklogMs": 5282,
+        "decodeToAudioRatio": 0.7307666666666667
+      },
+      "transitions": [
+        {
+          "atMs": 27906,
+          "slideId": "v1-2"
+        },
+        {
+          "atMs": 35537,
+          "slideId": "c1-1"
+        },
+        {
+          "atMs": 47467,
+          "slideId": "c1-2"
+        },
+        {
+          "atMs": 48899,
+          "slideId": "c1-3"
+        },
+        {
+          "atMs": 56343,
+          "slideId": "c1-4"
+        },
+        {
+          "atMs": 76032,
+          "slideId": "v2-1"
+        },
+        {
+          "atMs": 85093,
+          "slideId": "v2-2"
+        }
+      ]
+    },
+    {
+      "name": "Music CTC + ctc-plan-v1, 5s",
+      "windowMs": 5000,
+      "stepMs": 1500,
+      "metrics": {
+        "transcriptSamples": 0,
+        "top1Accuracy": null,
+        "top3Accuracy": null,
+        "trackingTimeAccuracy": 0.71285,
+        "displayedTimeAccuracy": 0.71285,
+        "expectedTransitions": 11,
+        "matchedTransitions": 11,
+        "missedTransitions": 0,
+        "falseTransitions": 0,
+        "medianLatencyMs": 3165,
+        "p95LatencyMs": 4237
+      },
+      "timing": {
+        "audioDurationMs": 120000,
+        "decodingMs": 96184,
+        "processingWallMs": 97065,
+        "windowCount": 80,
+        "silenceWindows": 0,
+        "maximumBacklogMs": 1372,
+        "decodeToAudioRatio": 0.8015333333333333
+      },
+      "transitions": [
+        {
+          "atMs": 25212,
+          "slideId": "v1-2"
+        },
+        {
+          "atMs": 35703,
+          "slideId": "c1-1"
+        },
+        {
+          "atMs": 43165,
+          "slideId": "c1-2"
+        },
+        {
+          "atMs": 49168,
+          "slideId": "c1-3"
+        },
+        {
+          "atMs": 56743,
+          "slideId": "c1-4"
+        },
+        {
+          "atMs": 70260,
+          "slideId": "v2-1"
+        },
+        {
+          "atMs": 85237,
+          "slideId": "v2-2"
+        },
+        {
+          "atMs": 95732,
+          "slideId": "c2-1"
+        },
+        {
+          "atMs": 103247,
+          "slideId": "c2-2"
+        },
+        {
+          "atMs": 109231,
+          "slideId": "c2-3"
+        },
+        {
+          "atMs": 116760,
+          "slideId": "c2-4"
+        }
+      ]
+    },
+    {
+      "name": "Music CTC + ctc-plan-v1, 2.5s",
+      "windowMs": 2500,
+      "stepMs": 750,
+      "metrics": {
+        "transcriptSamples": 0,
+        "top1Accuracy": null,
+        "top3Accuracy": null,
+        "trackingTimeAccuracy": 0.7509,
+        "displayedTimeAccuracy": 0.7509,
+        "expectedTransitions": 11,
+        "matchedTransitions": 11,
+        "missedTransitions": 0,
+        "falseTransitions": 0,
+        "medianLatencyMs": 2706,
+        "p95LatencyMs": 4194
+      },
+      "timing": {
+        "audioDurationMs": 120000,
+        "decodingMs": 106604,
+        "processingWallMs": 107561,
+        "windowCount": 160,
+        "silenceWindows": 0,
+        "maximumBacklogMs": 922,
+        "decodeToAudioRatio": 0.8883666666666666
+      },
+      "transitions": [
+        {
+          "atMs": 23924,
+          "slideId": "v1-2"
+        },
+        {
+          "atMs": 35150,
+          "slideId": "c1-1"
+        },
+        {
+          "atMs": 44194,
+          "slideId": "c1-2"
+        },
+        {
+          "atMs": 48671,
+          "slideId": "c1-3"
+        },
+        {
+          "atMs": 56189,
+          "slideId": "c1-4"
+        },
+        {
+          "atMs": 69706,
+          "slideId": "v2-1"
+        },
+        {
+          "atMs": 83915,
+          "slideId": "v2-2"
+        },
+        {
+          "atMs": 95159,
+          "slideId": "c2-1"
+        },
+        {
+          "atMs": 104169,
+          "slideId": "c2-2"
+        },
+        {
+          "atMs": 108650,
+          "slideId": "c2-3"
+        },
+        {
+          "atMs": 116165,
+          "slideId": "c2-4"
+        }
+      ]
+    },
+    {
+      "name": "Music CTC + ctc-plan-v1, 1.5s",
+      "windowMs": 1500,
+      "stepMs": 500,
+      "metrics": {
+        "transcriptSamples": 0,
+        "top1Accuracy": null,
+        "top3Accuracy": null,
+        "trackingTimeAccuracy": 0.7782083333333333,
+        "displayedTimeAccuracy": 0.7782083333333333,
+        "expectedTransitions": 11,
+        "matchedTransitions": 11,
+        "missedTransitions": 0,
+        "falseTransitions": 0,
+        "medianLatencyMs": 2436,
+        "p95LatencyMs": 4953
+      },
+      "timing": {
+        "audioDurationMs": 120000,
+        "decodingMs": 108575,
+        "processingWallMs": 109558,
+        "windowCount": 240,
+        "silenceWindows": 0,
+        "maximumBacklogMs": 632,
+        "decodeToAudioRatio": 0.9047916666666667
+      },
+      "transitions": [
+        {
+          "atMs": 23436,
+          "slideId": "v1-2"
+        },
+        {
+          "atMs": 37953,
+          "slideId": "c1-1"
+        },
+        {
+          "atMs": 41974,
+          "slideId": "c1-2"
+        },
+        {
+          "atMs": 48490,
+          "slideId": "c1-3"
+        },
+        {
+          "atMs": 55485,
+          "slideId": "c1-4"
+        },
+        {
+          "atMs": 69460,
+          "slideId": "v2-1"
+        },
+        {
+          "atMs": 83451,
+          "slideId": "v2-2"
+        },
+        {
+          "atMs": 94461,
+          "slideId": "c2-1"
+        },
+        {
+          "atMs": 103940,
+          "slideId": "c2-2"
+        },
+        {
+          "atMs": 108462,
+          "slideId": "c2-3"
+        },
+        {
+          "atMs": 115503,
+          "slideId": "c2-4"
+        }
+      ]
+    },
+    {
+      "name": "Music CTC + ctc-plan-v2, fresh offline run",
+      "windowMs": 1500,
+      "stepMs": 500,
+      "metrics": {
+        "transcriptSamples": 0,
+        "top1Accuracy": null,
+        "top3Accuracy": null,
+        "trackingTimeAccuracy": 0.8166666666666667,
+        "displayedTimeAccuracy": 0.8166666666666667,
+        "expectedTransitions": 11,
+        "matchedTransitions": 11,
+        "missedTransitions": 0,
+        "falseTransitions": 0,
+        "medianLatencyMs": 1964,
+        "p95LatencyMs": 2466
+      },
+      "timing": {
+        "audioDurationMs": 120000,
+        "decodingMs": 109717,
+        "processingWallMs": 111362,
+        "windowCount": 240,
+        "silenceWindows": 0,
+        "maximumBacklogMs": 750,
+        "decodeToAudioRatio": 0.9143083333333333
+      },
+      "transitions": [
+        {
+          "atMs": 23453,
+          "slideId": "v1-2"
+        },
+        {
+          "atMs": 34964,
+          "slideId": "c1-1"
+        },
+        {
+          "atMs": 41936,
+          "slideId": "c1-2"
+        },
+        {
+          "atMs": 48454,
+          "slideId": "c1-3"
+        },
+        {
+          "atMs": 55460,
+          "slideId": "c1-4"
+        },
+        {
+          "atMs": 69466,
+          "slideId": "v2-1"
+        },
+        {
+          "atMs": 83455,
+          "slideId": "v2-2"
+        },
+        {
+          "atMs": 94454,
+          "slideId": "c2-1"
+        },
+        {
+          "atMs": 102439,
+          "slideId": "c2-2"
+        },
+        {
+          "atMs": 108454,
+          "slideId": "c2-3"
+        },
+        {
+          "atMs": 115465,
+          "slideId": "c2-4"
+        }
+      ]
+    },
+    {
+      "name": "Music CTC + ctc-plan-v2, live-paced file",
+      "windowMs": 1500,
+      "stepMs": 500,
+      "realtime": true,
+      "metrics": {
+        "transcriptSamples": 0,
+        "top1Accuracy": null,
+        "top3Accuracy": null,
+        "trackingTimeAccuracy": 0.8188916666666667,
+        "displayedTimeAccuracy": 0.8188916666666667,
+        "expectedTransitions": 11,
+        "matchedTransitions": 11,
+        "missedTransitions": 0,
+        "falseTransitions": 0,
+        "medianLatencyMs": 1918,
+        "p95LatencyMs": 2442
+      },
+      "timing": {
+        "audioDurationMs": 120000,
+        "decodingMs": 103201,
+        "processingWallMs": 120439,
+        "windowCount": 240,
+        "silenceWindows": 0,
+        "maximumBacklogMs": 576,
+        "decodeToAudioRatio": 0.8600083333333334
+      },
+      "transitions": [
+        {
+          "atMs": 23435,
+          "slideId": "v1-2"
+        },
+        {
+          "atMs": 34917,
+          "slideId": "c1-1"
+        },
+        {
+          "atMs": 41918,
+          "slideId": "c1-2"
+        },
+        {
+          "atMs": 48419,
+          "slideId": "c1-3"
+        },
+        {
+          "atMs": 55415,
+          "slideId": "c1-4"
+        },
+        {
+          "atMs": 69442,
+          "slideId": "v2-1"
+        },
+        {
+          "atMs": 83437,
+          "slideId": "v2-2"
+        },
+        {
+          "atMs": 94433,
+          "slideId": "c2-1"
+        },
+        {
+          "atMs": 102434,
+          "slideId": "c2-2"
+        },
+        {
+          "atMs": 108443,
+          "slideId": "c2-3"
+        },
+        {
+          "atMs": 115440,
+          "slideId": "c2-4"
+        }
+      ]
+    },
+    {
+      "name": "Secondary Amazing Grace, short context",
+      "windowMs": 1500,
+      "stepMs": 500,
+      "annotations": "Independent published captions, approximate lyric onsets",
+      "metrics": {
+        "transcriptSamples": 0,
+        "top1Accuracy": null,
+        "top3Accuracy": null,
+        "trackingTimeAccuracy": 0.27875555555555553,
+        "displayedTimeAccuracy": 0.27875555555555553,
+        "expectedTransitions": 3,
+        "matchedTransitions": 1,
+        "missedTransitions": 2,
+        "falseTransitions": 0,
+        "medianLatencyMs": 8869,
+        "p95LatencyMs": 8869
+      },
+      "timing": {
+        "audioDurationMs": 45000,
+        "decodingMs": 39670,
+        "processingWallMs": 40040,
+        "windowCount": 90,
+        "silenceWindows": 0,
+        "maximumBacklogMs": 549,
+        "decodeToAudioRatio": 0.8815555555555555
+      },
+      "transitions": [
+        {
+          "atMs": 19409,
+          "slideId": "ag2"
+        }
+      ]
+    },
+    {
+      "name": "Secondary Amazing Grace, longer context",
+      "windowMs": 6000,
+      "stepMs": 2000,
+      "annotations": "Same captions; alternate configuration selected after the short-context failure",
+      "metrics": {
+        "transcriptSamples": 0,
+        "top1Accuracy": null,
+        "top3Accuracy": null,
+        "trackingTimeAccuracy": 0.6486,
+        "displayedTimeAccuracy": 0.6486,
+        "expectedTransitions": 3,
+        "matchedTransitions": 3,
+        "missedTransitions": 0,
+        "falseTransitions": 0,
+        "medianLatencyMs": 4937,
+        "p95LatencyMs": 6015
+      },
+      "timing": {
+        "audioDurationMs": 45000,
+        "decodingMs": 31498,
+        "processingWallMs": 31765,
+        "windowCount": 23,
+        "silenceWindows": 0,
+        "maximumBacklogMs": 1834,
+        "decodeToAudioRatio": 0.6999555555555556
+      },
+      "transitions": [
+        {
+          "atMs": 15401,
+          "slideId": "ag2"
+        },
+        {
+          "atMs": 27428,
+          "slideId": "ag3"
+        },
+        {
+          "atMs": 37473,
+          "slideId": "ag4"
+        }
+      ]
+    }
+  ],
+  "negativeControls": [
+    {
+      "name": "noise",
+      "expectedTransitions": 0,
+      "observedTransitions": 0,
+      "finalSlide": "v1-1",
+      "details": "20s seeded pink noise, above the silence bypass threshold"
+    },
+    {
+      "name": "wrong-song",
+      "expectedTransitions": 0,
+      "observedTransitions": 0,
+      "finalSlide": "v1-1",
+      "details": "Amazing Grace acoustic observations replayed against the What A Beautiful Name plan"
+    }
+  ],
+  "cues": [
+    {
+      "slideId": "v1-1",
+      "groundTruthMs": 0,
+      "actualMs": 0,
+      "delayMs": 0,
+      "initialSelection": true
+    },
+    {
+      "slideId": "v1-2",
+      "groundTruthMs": 21000,
+      "actualMs": 23435,
+      "delayMs": 2435,
+      "initialSelection": false
+    },
+    {
+      "slideId": "c1-1",
+      "groundTruthMs": 33000,
+      "actualMs": 34917,
+      "delayMs": 1917,
+      "initialSelection": false
+    },
+    {
+      "slideId": "c1-2",
+      "groundTruthMs": 40000,
+      "actualMs": 41918,
+      "delayMs": 1918,
+      "initialSelection": false
+    },
+    {
+      "slideId": "c1-3",
+      "groundTruthMs": 47000,
+      "actualMs": 48419,
+      "delayMs": 1419,
+      "initialSelection": false
+    },
+    {
+      "slideId": "c1-4",
+      "groundTruthMs": 54000,
+      "actualMs": 55415,
+      "delayMs": 1415,
+      "initialSelection": false
+    },
+    {
+      "slideId": "v2-1",
+      "groundTruthMs": 67000,
+      "actualMs": 69442,
+      "delayMs": 2442,
+      "initialSelection": false
+    },
+    {
+      "slideId": "v2-2",
+      "groundTruthMs": 81000,
+      "actualMs": 83437,
+      "delayMs": 2437,
+      "initialSelection": false
+    },
+    {
+      "slideId": "c2-1",
+      "groundTruthMs": 92000,
+      "actualMs": 94433,
+      "delayMs": 2433,
+      "initialSelection": false
+    },
+    {
+      "slideId": "c2-2",
+      "groundTruthMs": 100000,
+      "actualMs": 102434,
+      "delayMs": 2434,
+      "initialSelection": false
+    },
+    {
+      "slideId": "c2-3",
+      "groundTruthMs": 107000,
+      "actualMs": 108443,
+      "delayMs": 1443,
+      "initialSelection": false
+    },
+    {
+      "slideId": "c2-4",
+      "groundTruthMs": 114000,
+      "actualMs": 115440,
+      "delayMs": 1440,
+      "initialSelection": false
+    }
+  ]
+}

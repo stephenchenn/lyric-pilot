@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "verified": false,
+  "documentation": {
+    "url": "http://REPLACE-with-installed-api-documentation-url",
+    "applicationVersion": "REPLACE-with-installed-version",
+    "reviewedAt": "REPLACE-with-review-date"
+  },
+  "indexBase": 0,
+  "endpoints": {
+    "health": { "path": "/REPLACE/health" },
+    "activePresentation": { "path": "/REPLACE/active-presentation" },
+    "currentSlide": { "path": "/REPLACE/current-slide" },
+    "slides": { "path": "/REPLACE/presentations/{presentationId}/slides" },
+    "triggerSlide": {
+      "method": "POST",
+      "path": "/REPLACE/presentations/{presentationId}/slides/{slideId}/trigger"
+    }
+  },
+  "mapping": {
+    "presentation": { "root": "", "id": "/id", "title": "/title" },
+    "currentSlide": { "root": "", "id": "/id", "index": "/index", "presentationId": "/presentationId" },
+    "slides": { "root": "", "id": "/id", "index": "/index", "text": "/text", "section": "/section" }
+  }
+}

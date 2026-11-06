@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "verified": true,
+  "documentation": {
+    "url": "http://127.0.0.1/fictional-test-contract",
+    "applicationVersion": "FIXTURE ONLY — not a ProPresenter API version",
+    "reviewedAt": "2026-11-04"
+  },
+  "indexBase": 1,
+  "endpoints": {
+    "health": { "path": "/fixture/health" },
+    "activePresentation": { "path": "/fixture/live/presentation" },
+    "currentSlide": { "path": "/fixture/live/slide" },
+    "slides": { "path": "/fixture/presentations/{presentationId}/cues" },
+    "triggerSlide": {
+      "method": "POST",
+      "path": "/fixture/presentations/{presentationId}/cues/{slideId}/fire",
+      "body": { "cue_number": "{index}" }
+    }
+  },
+  "mapping": {
+    "presentation": { "root": "/data", "id": "/identity/uuid", "title": "/name" },
+    "currentSlide": { "root": "/data", "id": "/uuid", "index": "/number", "presentationId": "/presentation/uuid" },
+    "slides": { "root": "/result/cues", "id": "/uuid", "index": "/number", "text": "/lyric", "section": "/group/name" }
+  }
+}

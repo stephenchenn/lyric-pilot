@@ -1,0 +1,12 @@
+{
+  "id": "noisy-phrase",
+  "title": "Original noisy phrase regression",
+  "presentationId": "offline-noisy-phrase",
+  "arrangement": ["V"],
+  "sections": [{ "id": "V", "label": "Verse", "slideIds": ["a", "b", "c"] }],
+  "slides": [
+    { "id": "a", "index": 0, "text": "Morning breaks across the valley\nWe gather by the river" },
+    { "id": "b", "index": 1, "text": "Your quiet lantern in the orchard\nNow lighting paths we follow home" },
+    { "id": "c", "index": 2, "text": "The sunrise paints the hillside\nWe rest beside the water" }
+  ]
+}

@@ -1,0 +1,321 @@
+{
+  "name": "noisy-transcript",
+  "description": "Synthetic transcript fixture; no measured singing recognition. Ground truth never enters the matcher.",
+  "durationMs": 54000,
+  "events": [
+    {
+      "type": "transcript",
+      "id": "noisy-transcript-0",
+      "startMs": 0,
+      "endMs": 700,
+      "atMs": 700,
+      "text": "Morning breaks across the",
+      "final": false
+    },
+    {
+      "type": "transcript",
+      "id": "noisy-transcript-0",
+      "startMs": 0,
+      "endMs": 1450,
+      "atMs": 1450,
+      "text": "Morning breaks across the valley",
+      "final": true
+    },
+    {
+      "type": "tick",
+      "atMs": 4300
+    },
+    {
+      "type": "transcript",
+      "id": "noisy-transcript-1",
+      "startMs": 4500,
+      "endMs": 5200,
+      "atMs": 5200,
+      "text": "We lift our voics",
+      "final": false
+    },
+    {
+      "type": "transcript",
+      "id": "noisy-transcript-1",
+      "startMs": 4500,
+      "endMs": 5950,
+      "atMs": 5950,
+      "text": "We lift our voics together",
+      "final": true
+    },
+    {
+      "type": "tick",
+      "atMs": 8800
+    },
+    {
+      "type": "transcript",
+      "id": "noisy-transcript-2",
+      "startMs": 9000,
+      "endMs": 9700,
+      "atMs": 9700,
+      "text": "You are with us",
+      "final": false
+    },
+    {
+      "type": "transcript",
+      "id": "noisy-transcript-2",
+      "startMs": 9000,
+      "endMs": 10450,
+      "atMs": 10450,
+      "text": "You are with us thru the storm",
+      "final": true
+    },
+    {
+      "type": "tick",
+      "atMs": 13300
+    },
+    {
+      "type": "transcript",
+      "id": "noisy-transcript-3",
+      "startMs": 13500,
+      "endMs": 14200,
+      "atMs": 14200,
+      "text": "You will lead us",
+      "final": false
+    },
+    {
+      "type": "transcript",
+      "id": "noisy-transcript-3",
+      "startMs": 13500,
+      "endMs": 14950,
+      "atMs": 14950,
+      "text": "You will lead us safley home",
+      "final": true
+    },
+    {
+      "type": "tick",
+      "atMs": 17800
+    },
+    {
+      "type": "transcript",
+      "id": "noisy-transcript-4",
+      "startMs": 18000,
+      "endMs": 18700,
+      "atMs": 18700,
+      "text": "When the road becomes",
+      "final": false
+    },
+    {
+      "type": "transcript",
+      "id": "noisy-transcript-4",
+      "startMs": 18000,
+      "endMs": 19450,
+      "atMs": 19450,
+      "text": "When the road becomes uncertan",
+      "final": true
+    },
+    {
+      "type": "tick",
+      "atMs": 22300
+    },
+    {
+      "type": "transcript",
+      "id": "noisy-transcript-5",
+      "startMs": 22500,
+      "endMs": 23200,
+      "atMs": 23200,
+      "text": "Still we choose to",
+      "final": false
+    },
+    {
+      "type": "transcript",
+      "id": "noisy-transcript-5",
+      "startMs": 22500,
+      "endMs": 23950,
+      "atMs": 23950,
+      "text": "Still we choose to walk in hope",
+      "final": true
+    },
+    {
+      "type": "tick",
+      "atMs": 26800
+    },
+    {
+      "type": "transcript",
+      "id": "noisy-transcript-6",
+      "startMs": 27000,
+      "endMs": 27700,
+      "atMs": 27700,
+      "text": "You are with us",
+      "final": false
+    },
+    {
+      "type": "transcript",
+      "id": "noisy-transcript-6",
+      "startMs": 27000,
+      "endMs": 28450,
+      "atMs": 28450,
+      "text": "You are with us thru the storm",
+      "final": true
+    },
+    {
+      "type": "tick",
+      "atMs": 31300
+    },
+    {
+      "type": "transcript",
+      "id": "noisy-transcript-7",
+      "startMs": 31500,
+      "endMs": 32200,
+      "atMs": 32200,
+      "text": "You will lead us",
+      "final": false
+    },
+    {
+      "type": "transcript",
+      "id": "noisy-transcript-7",
+      "startMs": 31500,
+      "endMs": 32950,
+      "atMs": 32950,
+      "text": "You will lead us safley home",
+      "final": true
+    },
+    {
+      "type": "tick",
+      "atMs": 35800
+    },
+    {
+      "type": "transcript",
+      "id": "noisy-transcript-8",
+      "startMs": 36000,
+      "endMs": 36700,
+      "atMs": 36700,
+      "text": "We will follow, we",
+      "final": false
+    },
+    {
+      "type": "transcript",
+      "id": "noisy-transcript-8",
+      "startMs": 36000,
+      "endMs": 37450,
+      "atMs": 37450,
+      "text": "We will follow, we will follow",
+      "final": true
+    },
+    {
+      "type": "tick",
+      "atMs": 40300
+    },
+    {
+      "type": "transcript",
+      "id": "noisy-transcript-9",
+      "startMs": 40500,
+      "endMs": 41200,
+      "atMs": 41200,
+      "text": "Where You lead us",
+      "final": false
+    },
+    {
+      "type": "transcript",
+      "id": "noisy-transcript-9",
+      "startMs": 40500,
+      "endMs": 41950,
+      "atMs": 41950,
+      "text": "Where You lead us we will go",
+      "final": true
+    },
+    {
+      "type": "tick",
+      "atMs": 44800
+    },
+    {
+      "type": "transcript",
+      "id": "noisy-transcript-10",
+      "startMs": 45000,
+      "endMs": 45700,
+      "atMs": 45700,
+      "text": "You are with us",
+      "final": false
+    },
+    {
+      "type": "transcript",
+      "id": "noisy-transcript-10",
+      "startMs": 45000,
+      "endMs": 46450,
+      "atMs": 46450,
+      "text": "You are with us thru the storm",
+      "final": true
+    },
+    {
+      "type": "tick",
+      "atMs": 49300
+    },
+    {
+      "type": "transcript",
+      "id": "noisy-transcript-11",
+      "startMs": 49500,
+      "endMs": 50200,
+      "atMs": 50200,
+      "text": "You will lead us",
+      "final": false
+    },
+    {
+      "type": "transcript",
+      "id": "noisy-transcript-11",
+      "startMs": 49500,
+      "endMs": 50950,
+      "atMs": 50950,
+      "text": "You will lead us safley home",
+      "final": true
+    },
+    {
+      "type": "tick",
+      "atMs": 53800
+    }
+  ],
+  "groundTruth": [
+    {
+      "atMs": 0,
+      "slideId": "s1"
+    },
+    {
+      "atMs": 4500,
+      "slideId": "s2"
+    },
+    {
+      "atMs": 9000,
+      "slideId": "s3"
+    },
+    {
+      "atMs": 13500,
+      "slideId": "s4"
+    },
+    {
+      "atMs": 18000,
+      "slideId": "s5"
+    },
+    {
+      "atMs": 22500,
+      "slideId": "s6"
+    },
+    {
+      "atMs": 27000,
+      "slideId": "s3"
+    },
+    {
+      "atMs": 31500,
+      "slideId": "s4"
+    },
+    {
+      "atMs": 36000,
+      "slideId": "s7"
+    },
+    {
+      "atMs": 40500,
+      "slideId": "s8"
+    },
+    {
+      "atMs": 45000,
+      "slideId": "s3"
+    },
+    {
+      "atMs": 49500,
+      "slideId": "s4"
+    }
+  ]
+}

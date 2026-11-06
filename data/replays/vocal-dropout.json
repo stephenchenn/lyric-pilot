@@ -1,0 +1,329 @@
+{
+  "name": "vocal-dropout",
+  "description": "Synthetic transcript fixture; no measured singing recognition. Ground truth never enters the matcher.",
+  "durationMs": 60000,
+  "events": [
+    {
+      "type": "transcript",
+      "id": "vocal-dropout-0",
+      "startMs": 0,
+      "endMs": 700,
+      "atMs": 700,
+      "text": "Morning breaks across the",
+      "final": false
+    },
+    {
+      "type": "transcript",
+      "id": "vocal-dropout-0",
+      "startMs": 0,
+      "endMs": 1450,
+      "atMs": 1450,
+      "text": "Morning breaks across the valley",
+      "final": true
+    },
+    {
+      "type": "tick",
+      "atMs": 4300
+    },
+    {
+      "type": "transcript",
+      "id": "vocal-dropout-1",
+      "startMs": 4500,
+      "endMs": 5200,
+      "atMs": 5200,
+      "text": "We lift our voices",
+      "final": false
+    },
+    {
+      "type": "transcript",
+      "id": "vocal-dropout-1",
+      "startMs": 4500,
+      "endMs": 5950,
+      "atMs": 5950,
+      "text": "We lift our voices together",
+      "final": true
+    },
+    {
+      "type": "tick",
+      "atMs": 8800
+    },
+    {
+      "type": "transcript",
+      "id": "vocal-dropout-2",
+      "startMs": 9000,
+      "endMs": 9700,
+      "atMs": 9700,
+      "text": "You are with us",
+      "final": false
+    },
+    {
+      "type": "transcript",
+      "id": "vocal-dropout-2",
+      "startMs": 9000,
+      "endMs": 10450,
+      "atMs": 10450,
+      "text": "You are with us through the storm",
+      "final": true
+    },
+    {
+      "type": "tick",
+      "atMs": 13300
+    },
+    {
+      "type": "transcript",
+      "id": "vocal-dropout-3",
+      "startMs": 13500,
+      "endMs": 14200,
+      "atMs": 14200,
+      "text": "You will lead us",
+      "final": false
+    },
+    {
+      "type": "transcript",
+      "id": "vocal-dropout-3",
+      "startMs": 13500,
+      "endMs": 14950,
+      "atMs": 14950,
+      "text": "You will lead us safely home",
+      "final": true
+    },
+    {
+      "type": "tick",
+      "atMs": 17800
+    },
+    {
+      "type": "tick",
+      "atMs": 21000
+    },
+    {
+      "type": "tick",
+      "atMs": 23900
+    },
+    {
+      "type": "transcript",
+      "id": "vocal-dropout-4",
+      "startMs": 24000,
+      "endMs": 24700,
+      "atMs": 24700,
+      "text": "When the road becomes",
+      "final": false
+    },
+    {
+      "type": "transcript",
+      "id": "vocal-dropout-4",
+      "startMs": 24000,
+      "endMs": 25450,
+      "atMs": 25450,
+      "text": "When the road becomes uncertain",
+      "final": true
+    },
+    {
+      "type": "tick",
+      "atMs": 28300
+    },
+    {
+      "type": "transcript",
+      "id": "vocal-dropout-5",
+      "startMs": 28500,
+      "endMs": 29200,
+      "atMs": 29200,
+      "text": "Still we choose to",
+      "final": false
+    },
+    {
+      "type": "transcript",
+      "id": "vocal-dropout-5",
+      "startMs": 28500,
+      "endMs": 29950,
+      "atMs": 29950,
+      "text": "Still we choose to walk in hope",
+      "final": true
+    },
+    {
+      "type": "tick",
+      "atMs": 32800
+    },
+    {
+      "type": "transcript",
+      "id": "vocal-dropout-6",
+      "startMs": 33000,
+      "endMs": 33700,
+      "atMs": 33700,
+      "text": "You are with us",
+      "final": false
+    },
+    {
+      "type": "transcript",
+      "id": "vocal-dropout-6",
+      "startMs": 33000,
+      "endMs": 34450,
+      "atMs": 34450,
+      "text": "You are with us through the storm",
+      "final": true
+    },
+    {
+      "type": "tick",
+      "atMs": 37300
+    },
+    {
+      "type": "transcript",
+      "id": "vocal-dropout-7",
+      "startMs": 37500,
+      "endMs": 38200,
+      "atMs": 38200,
+      "text": "You will lead us",
+      "final": false
+    },
+    {
+      "type": "transcript",
+      "id": "vocal-dropout-7",
+      "startMs": 37500,
+      "endMs": 38950,
+      "atMs": 38950,
+      "text": "You will lead us safely home",
+      "final": true
+    },
+    {
+      "type": "tick",
+      "atMs": 41800
+    },
+    {
+      "type": "transcript",
+      "id": "vocal-dropout-8",
+      "startMs": 42000,
+      "endMs": 42700,
+      "atMs": 42700,
+      "text": "We will follow, we",
+      "final": false
+    },
+    {
+      "type": "transcript",
+      "id": "vocal-dropout-8",
+      "startMs": 42000,
+      "endMs": 43450,
+      "atMs": 43450,
+      "text": "We will follow, we will follow",
+      "final": true
+    },
+    {
+      "type": "tick",
+      "atMs": 46300
+    },
+    {
+      "type": "transcript",
+      "id": "vocal-dropout-9",
+      "startMs": 46500,
+      "endMs": 47200,
+      "atMs": 47200,
+      "text": "Where You lead us",
+      "final": false
+    },
+    {
+      "type": "transcript",
+      "id": "vocal-dropout-9",
+      "startMs": 46500,
+      "endMs": 47950,
+      "atMs": 47950,
+      "text": "Where You lead us we will go",
+      "final": true
+    },
+    {
+      "type": "tick",
+      "atMs": 50800
+    },
+    {
+      "type": "transcript",
+      "id": "vocal-dropout-10",
+      "startMs": 51000,
+      "endMs": 51700,
+      "atMs": 51700,
+      "text": "You are with us",
+      "final": false
+    },
+    {
+      "type": "transcript",
+      "id": "vocal-dropout-10",
+      "startMs": 51000,
+      "endMs": 52450,
+      "atMs": 52450,
+      "text": "You are with us through the storm",
+      "final": true
+    },
+    {
+      "type": "tick",
+      "atMs": 55300
+    },
+    {
+      "type": "transcript",
+      "id": "vocal-dropout-11",
+      "startMs": 55500,
+      "endMs": 56200,
+      "atMs": 56200,
+      "text": "You will lead us",
+      "final": false
+    },
+    {
+      "type": "transcript",
+      "id": "vocal-dropout-11",
+      "startMs": 55500,
+      "endMs": 56950,
+      "atMs": 56950,
+      "text": "You will lead us safely home",
+      "final": true
+    },
+    {
+      "type": "tick",
+      "atMs": 59800
+    }
+  ],
+  "groundTruth": [
+    {
+      "atMs": 0,
+      "slideId": "s1"
+    },
+    {
+      "atMs": 4500,
+      "slideId": "s2"
+    },
+    {
+      "atMs": 9000,
+      "slideId": "s3"
+    },
+    {
+      "atMs": 13500,
+      "slideId": "s4"
+    },
+    {
+      "atMs": 24000,
+      "slideId": "s5"
+    },
+    {
+      "atMs": 28500,
+      "slideId": "s6"
+    },
+    {
+      "atMs": 33000,
+      "slideId": "s3"
+    },
+    {
+      "atMs": 37500,
+      "slideId": "s4"
+    },
+    {
+      "atMs": 42000,
+      "slideId": "s7"
+    },
+    {
+      "atMs": 46500,
+      "slideId": "s8"
+    },
+    {
+      "atMs": 51000,
+      "slideId": "s3"
+    },
+    {
+      "atMs": 55500,
+      "slideId": "s4"
+    }
+  ]
+}

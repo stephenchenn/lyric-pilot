@@ -1,0 +1,22 @@
+{
+  "id": "synthetic-test",
+  "title": "Morning / Synthetic Test Song",
+  "presentationId": "synthetic-presentation",
+  "arrangement": ["V1", "C", "V2", "C", "B", "C"],
+  "sections": [
+    { "id": "V1", "label": "Verse 1", "slideIds": ["s1", "s2"] },
+    { "id": "C", "label": "Chorus", "slideIds": ["s3", "s4"] },
+    { "id": "V2", "label": "Verse 2", "slideIds": ["s5", "s6"] },
+    { "id": "B", "label": "Bridge", "slideIds": ["s7", "s8"] }
+  ],
+  "slides": [
+    { "id": "s1", "index": 0, "section": "V1", "text": "Morning breaks across the valley" },
+    { "id": "s2", "index": 1, "section": "V1", "text": "We lift our voices together" },
+    { "id": "s3", "index": 2, "section": "C", "text": "You are with us through the storm" },
+    { "id": "s4", "index": 3, "section": "C", "text": "You will lead us safely home" },
+    { "id": "s5", "index": 4, "section": "V2", "text": "When the road becomes uncertain" },
+    { "id": "s6", "index": 5, "section": "V2", "text": "Still we choose to walk in hope" },
+    { "id": "s7", "index": 6, "section": "B", "text": "We will follow, we will follow" },
+    { "id": "s8", "index": 7, "section": "B", "text": "Where You lead us we will go" }
+  ]
+}

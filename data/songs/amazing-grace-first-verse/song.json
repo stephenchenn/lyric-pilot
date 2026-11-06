@@ -1,0 +1,13 @@
+{
+  "id": "amazing-grace-first-verse",
+  "title": "Amazing Grace — first verse (public domain)",
+  "presentationId": "offline-amazing-grace",
+  "arrangement": ["V1"],
+  "sections": [{ "id": "V1", "label": "Verse 1", "slideIds": ["ag1", "ag2", "ag3", "ag4"] }],
+  "slides": [
+    { "id": "ag1", "index": 0, "section": "V1", "text": "Amazing grace how sweet the sound" },
+    { "id": "ag2", "index": 1, "section": "V1", "text": "That saved a wretch like me" },
+    { "id": "ag3", "index": 2, "section": "V1", "text": "I once was lost but now am found" },
+    { "id": "ag4", "index": 3, "section": "V1", "text": "Was blind but now I see" }
+  ]
+}

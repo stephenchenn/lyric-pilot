@@ -1,0 +1,120 @@
+{
+  "date": "2026-11-05",
+  "policy": "heuristic-v1",
+  "method": "Current matcher replay over captured local whisper.cpp v1.9.5 observations, preserving measured availability/word times. Time accuracy evaluated only during actual recording duration, not post-audio decode tail.",
+  "machine": "Intel i7-10510U CPU, four inference threads; no GPU",
+  "results": [
+    {
+      "name": "jump-bridge",
+      "model": "tiny.en",
+      "windowMs": 5000,
+      "stepMs": 1500,
+      "metrics": {
+        "transcriptSamples": 17,
+        "top1Accuracy": 0.7058823529411765,
+        "top3Accuracy": 0.7647058823529411,
+        "trackingTimeAccuracy": 0.42162962962962963,
+        "displayedTimeAccuracy": 0.42162962962962963,
+        "expectedTransitions": 5,
+        "matchedTransitions": 5,
+        "missedTransitions": 0,
+        "falseTransitions": 0,
+        "medianLatencyMs": 2553,
+        "p95LatencyMs": 4275
+      },
+      "timing": {
+        "audioDurationMs": 27000,
+        "decodingMs": 21463,
+        "processingWallMs": 21632,
+        "windowCount": 18,
+        "silenceWindows": 0,
+        "maximumBacklogMs": 1525,
+        "decodeToAudioRatio": 0.7949259259259259
+      }
+    },
+    {
+      "name": "extra-chorus",
+      "model": "tiny.en",
+      "windowMs": 5000,
+      "stepMs": 1500,
+      "metrics": {
+        "transcriptSamples": 41,
+        "top1Accuracy": 0.5609756097560976,
+        "top3Accuracy": 0.6585365853658537,
+        "trackingTimeAccuracy": 0.2696984126984127,
+        "displayedTimeAccuracy": 0.2696984126984127,
+        "expectedTransitions": 13,
+        "matchedTransitions": 10,
+        "missedTransitions": 3,
+        "falseTransitions": 2,
+        "medianLatencyMs": 2922,
+        "p95LatencyMs": 4418
+      },
+      "timing": {
+        "audioDurationMs": 63000,
+        "decodingMs": 59318,
+        "processingWallMs": 59668,
+        "windowCount": 42,
+        "silenceWindows": 0,
+        "maximumBacklogMs": 2556,
+        "decodeToAudioRatio": 0.9415555555555556
+      }
+    },
+    {
+      "name": "amazing-grace",
+      "model": "tiny.en",
+      "windowMs": 5000,
+      "stepMs": 1500,
+      "metrics": {
+        "transcriptSamples": 19,
+        "top1Accuracy": 0.8421052631578947,
+        "top3Accuracy": 1,
+        "trackingTimeAccuracy": 0.3336222222222222,
+        "displayedTimeAccuracy": 0.3336222222222222,
+        "expectedTransitions": 3,
+        "matchedTransitions": 1,
+        "missedTransitions": 2,
+        "falseTransitions": 0,
+        "medianLatencyMs": 6650,
+        "p95LatencyMs": 6650
+      },
+      "timing": {
+        "audioDurationMs": 45000,
+        "decodingMs": 36193,
+        "processingWallMs": 36416,
+        "windowCount": 30,
+        "silenceWindows": 4,
+        "maximumBacklogMs": 1681,
+        "decodeToAudioRatio": 0.8042888888888889
+      }
+    },
+    {
+      "name": "amazing-grace-base",
+      "model": "base.en",
+      "windowMs": 10000,
+      "stepMs": 3000,
+      "metrics": {
+        "transcriptSamples": 13,
+        "top1Accuracy": 0.3076923076923077,
+        "top3Accuracy": 1,
+        "trackingTimeAccuracy": 0.23422222222222222,
+        "displayedTimeAccuracy": 0.23422222222222222,
+        "expectedTransitions": 3,
+        "matchedTransitions": 0,
+        "missedTransitions": 3,
+        "falseTransitions": 0,
+        "medianLatencyMs": null,
+        "p95LatencyMs": null
+      },
+      "timing": {
+        "audioDurationMs": 45000,
+        "decodingMs": 39484,
+        "processingWallMs": 39774,
+        "windowCount": 15,
+        "silenceWindows": 1,
+        "maximumBacklogMs": 4108,
+        "decodeToAudioRatio": 0.8774222222222222
+      }
+    }
+  ]
+}

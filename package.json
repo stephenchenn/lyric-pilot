@@ -1,0 +1,31 @@
+{
+  "name": "lyric-pilot",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Local lyric following, arrangement tracking, recorded-audio transcription and replay simulation",
+  "type": "module",
+  "engines": {
+    "node": ">=24.12.0"
+  },
+  "scripts": {
+    "start": "node src/app/follow.ts",
+    "presenter": "node src/app/main.ts",
+    "cli": "node src/app/main.ts",
+    "demo": "node src/app/follow.ts demo",
+    "demo:presenter": "node src/app/main.ts demo",
+    "follow": "node src/app/follow.ts",
+    "demo:follow": "node src/app/follow.ts demo",
+    "setup:whisper": "node scripts/setup-whisper.ts",
+    "setup:ctc": "node scripts/setup-ctc.ts",
+    "fixtures:transcripts": "node scripts/generate-scenarios.ts",
+    "fixtures:audio": "node scripts/generate-audio.ts",
+    "fixtures:singing": "node scripts/download-singing-example.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "node --test tests/*.test.ts",
+    "check": "npm run typecheck && npm test"
+  },
+  "devDependencies": {
+    "@types/node": "24.19.2",
+    "typescript": "5.9.3"
+  }
+}
